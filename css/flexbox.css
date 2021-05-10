@@ -35,6 +35,7 @@
 }
 .videoSobre-video{
   flex-grow: 1;
+  flex-shrink: 3;
 }
 /* FIM MAIN */
 
@@ -112,5 +113,13 @@
   .rodapePrincipal-contatoForm-fieldset{
     justify-content: center;
   }
+
+  .videoSobre .container{
+    flex-direction: column;
+  }
+
+  .videoSobre-video{
+    margin: 0 auto;
+    }
 
 }
