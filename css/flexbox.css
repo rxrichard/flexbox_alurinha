@@ -18,7 +18,24 @@
 .conteudoPrincipal-cursos-link{
   width: 23%;
 }
+.videoSobre .container{
+  display: flex;
+  
+}
+.videoSobre-sobre{
+  text-align: center;
 
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+
+}
+.videoSobre-sobre-list{
+  flex-grow: 1;
+}
+.videoSobre-video{
+  flex-grow: 1;
+}
 /* FIM MAIN */
 
 
@@ -58,6 +75,10 @@
 /*CELULAR*/
 
 @media(max-width: 769px) {
+
+  .cabecalhoPrincipal-nav-link-app{
+    order: -1;
+  }
   .cabecalhoPrincipal-nav{
     flex-direction: column;
   }
@@ -91,4 +112,5 @@
   .rodapePrincipal-contatoForm-fieldset{
     justify-content: center;
   }
+
 }
