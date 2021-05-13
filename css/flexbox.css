@@ -11,8 +11,8 @@
 
 .conteudoPrincipal-cursos{
   display: flex;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
+
 }
 
 .conteudoPrincipal-cursos-link{
@@ -120,6 +120,6 @@
 
   .videoSobre-video{
     margin: 0 auto;
-    }
+  }
 
 }
